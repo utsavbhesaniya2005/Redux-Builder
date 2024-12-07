@@ -98,7 +98,7 @@ const ProductEdit = () => {
                     </Row>
 
                     <Button variant="primary" type="submit">
-                        Submit
+                        Update
                     </Button>
                 </Form>
             </Container>
