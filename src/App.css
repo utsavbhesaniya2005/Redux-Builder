@@ -136,3 +136,27 @@
   font-weight: 700;
   font-style: italic;
 }
+
+.btn2{
+  background-color: transparent !important;
+  padding: 10px !important;
+  border-color: white !important;
+}
+
+.btn2:hover svg{
+  animation: moving-icon 1s linear infinite alternate;
+}
+
+@keyframes moving-icon {  
+
+  0%{
+    transform: translateY(-3px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(3px);
+  }
+  
+}
