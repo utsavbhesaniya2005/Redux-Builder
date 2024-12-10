@@ -75,7 +75,7 @@ const ProductReducers = (state = initialState, action) => {
 
         case 'GET_PRODUCT' :
 
-            let getData = JSON.parse(localStorage.getItem('products'));;
+            let getData = JSON.parse(localStorage.getItem('products')) || [];
 
             return{
                 ...state,
